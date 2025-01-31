@@ -22,7 +22,7 @@ jobs:
         run: sudo apt-get install mktorrent
         
       - name: Download file
-        run: wget -nv -O "$file_name" "$url"
+        run: wget -v -O "$file_name" "$url"
         
       - name: Create torrent using mktorrent
         run: mktorrent -c "$comment" -l $piece_size -o "${name}.torrent" -w "$url" "$file_name"
