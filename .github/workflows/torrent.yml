@@ -5,11 +5,11 @@ on:
       - master
       
 env:
-  name: "Android Studio and SDK Tools"
-  comment: "Android Studio for Windows"
-  url: "https://redirector.gvt1.com/edgedl/android/studio/install/4.1.2.0/android-studio-ide-201.7042882-windows.exe"
-  file_name: "android-studio-ide-201.7042882-windows.exe"
-  piece_size: 19 # Check the README.md for recommended piece size
+  name: "holoiso-installer_snapshot"
+  comment: "holoiso-installer_snapshot20240901.1748.45_beta"
+  url: "https://cd2.holoiso.ru.eu.org/holoiso-installer/beta/holoiso-installer_snapshot20240901.1748.45_beta-20240928153932-x86_64.iso"
+  file_name: "holoiso-installer_snapshot20240901.1748.45_beta-20240928153932-x86_64.iso"
+  piece_size: 21 # Check the README.md for recommended piece size
       
 jobs:
   create:
